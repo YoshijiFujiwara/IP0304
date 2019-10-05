@@ -14,6 +14,12 @@
 		822F288B22D8498D00914199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822F288922D8498D00914199 /* LaunchScreen.storyboard */; };
 		822F289622D8498D00914199 /* IH03041Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F289522D8498D00914199 /* IH03041Tests.swift */; };
 		822F28A122D8498D00914199 /* IH03041UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F28A022D8498D00914199 /* IH03041UITests.swift */; };
+		82E2C5FA232A66F40043BAA5 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E2C5F9232A66F40043BAA5 /* TopViewController.swift */; };
+		82E2C5FE232A68270043BAA5 /* JankenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E2C5FD232A68270043BAA5 /* JankenViewController.swift */; };
+		82E2C608232A6B730043BAA5 /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E2C607232A6B730043BAA5 /* WebPageViewController.swift */; };
+		82E2C60A232A6DCF0043BAA5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E2C609232A6DCF0043BAA5 /* MapViewController.swift */; };
+		82E2C610232A74DF0043BAA5 /* jankenpon2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82E2C60E232A74DF0043BAA5 /* jankenpon2.mp3 */; };
+		82E2C611232A74DF0043BAA5 /* jankenpon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82E2C60F232A74DF0043BAA5 /* jankenpon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		822F289C22D8498D00914199 /* IH03041UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IH03041UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822F28A022D8498D00914199 /* IH03041UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IH03041UITests.swift; sourceTree = "<group>"; };
 		822F28A222D8498D00914199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E2C5F9232A66F40043BAA5 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		82E2C5FD232A68270043BAA5 /* JankenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenViewController.swift; sourceTree = "<group>"; };
+		82E2C607232A6B730043BAA5 /* WebPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		82E2C609232A6DCF0043BAA5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		82E2C60E232A74DF0043BAA5 /* jankenpon2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jankenpon2.mp3; sourceTree = "<group>"; };
+		82E2C60F232A74DF0043BAA5 /* jankenpon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jankenpon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,17 @@
 		822F287F22D8498C00914199 /* IH03041 */ = {
 			isa = PBXGroup;
 			children = (
+				82E2C60D232A74DF0043BAA5 /* sound */,
 				822F288022D8498C00914199 /* AppDelegate.swift */,
 				822F288222D8498C00914199 /* ViewController.swift */,
 				822F288422D8498C00914199 /* Main.storyboard */,
+				82E2C609232A6DCF0043BAA5 /* MapViewController.swift */,
 				822F288722D8498D00914199 /* Assets.xcassets */,
 				822F288922D8498D00914199 /* LaunchScreen.storyboard */,
 				822F288C22D8498D00914199 /* Info.plist */,
+				82E2C5F9232A66F40043BAA5 /* TopViewController.swift */,
+				82E2C5FD232A68270043BAA5 /* JankenViewController.swift */,
+				82E2C607232A6B730043BAA5 /* WebPageViewController.swift */,
 			);
 			path = IH03041;
 			sourceTree = "<group>";
@@ -123,6 +140,16 @@
 				822F28A222D8498D00914199 /* Info.plist */,
 			);
 			path = IH03041UITests;
+			sourceTree = "<group>";
+		};
+		82E2C60D232A74DF0043BAA5 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				82E2C60E232A74DF0043BAA5 /* jankenpon2.mp3 */,
+				82E2C60F232A74DF0043BAA5 /* jankenpon.mp3 */,
+			);
+			name = sound;
+			path = ../../H0302/H0302/sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +258,8 @@
 			files = (
 				822F288B22D8498D00914199 /* LaunchScreen.storyboard in Resources */,
 				822F288822D8498D00914199 /* Assets.xcassets in Resources */,
+				82E2C610232A74DF0043BAA5 /* jankenpon2.mp3 in Resources */,
+				82E2C611232A74DF0043BAA5 /* jankenpon.mp3 in Resources */,
 				822F288622D8498C00914199 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E2C608232A6B730043BAA5 /* WebPageViewController.swift in Sources */,
+				82E2C60A232A6DCF0043BAA5 /* MapViewController.swift in Sources */,
+				82E2C5FA232A66F40043BAA5 /* TopViewController.swift in Sources */,
 				822F288322D8498C00914199 /* ViewController.swift in Sources */,
 				822F288122D8498C00914199 /* AppDelegate.swift in Sources */,
+				82E2C5FE232A68270043BAA5 /* JankenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
